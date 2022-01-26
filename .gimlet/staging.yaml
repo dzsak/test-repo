@@ -7,4 +7,5 @@ chart:
   version: 0.32.0
 values:
   image:
-    repository: 'nginx.   '
+    repository: myapp
+  replicas: 5
