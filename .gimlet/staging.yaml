@@ -7,4 +7,20 @@ chart:
     version: 0.32.0
 values:
     image:
-        repository: myapp
+        repository: alma
+    podDisruptionBudgetEnabled: false
+    probe:
+        enabled: true
+    resources:
+        limits:
+            cpu: 500m
+            memory: 500Mi
+        requests:
+            cpu: 500m
+            memory: 500Mi
+    spreadAcrossNodes: false
+    volumes:
+        - name: data
+          path: /data
+          size: 10Gi
+          storageClass: ""
