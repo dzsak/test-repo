@@ -7,5 +7,5 @@ chart:
     version: 0.32.0
 values:
     image:
-        repository: myappcssss
+        repository: myapp
         tag: 1.19.0
