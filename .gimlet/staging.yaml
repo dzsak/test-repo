@@ -8,3 +8,4 @@ chart:
 values:
     image:
         tag: 1.19.0
+    replicas: 10
