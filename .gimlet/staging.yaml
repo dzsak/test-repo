@@ -6,5 +6,17 @@ chart:
     name: onechart
     version: 0.32.0
 values:
+    containerPort: 8080
     image:
-        repository: myapps
+        repository: myapp
+    probe:
+        enabled: true
+    replicas: 2
+    vars:
+        newKey: New Value
+        newKey-1: New Value
+    volumes:
+        - name: data
+          path: /data
+          size: 2Gi
+          storageClass: ""
