@@ -9,7 +9,6 @@ values:
     containerPort: 8080
     image:
         repository: myappd
-    replicas: 2
     vars:
         newKey: New Value
         newKey-1: New Value
