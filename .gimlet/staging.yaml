@@ -8,15 +8,10 @@ chart:
 values:
     containerPort: 8080
     image:
-        repository: myapp
+        repository: myappd
     probe:
         enabled: true
     replicas: 2
     vars:
         newKey: New Value
         newKey-1: New Value
-    volumes:
-        - name: data
-          path: /data
-          size: 2Gi
-          storageClass: ""
