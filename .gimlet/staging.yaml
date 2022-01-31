@@ -10,4 +10,21 @@ values:
     image:
         repository: myappsi
         tag: 0.1.0
+    probe:
+        enabled: true
     replicas: 3
+    resources:
+        limits:
+            cpu: 500m
+            memory: 500Mi
+        requests:
+            cpu: 500m
+            memory: 500Mi
+    vars:
+        newKey: New Value
+        newKey-1: New Value
+    volumes:
+        - name: data
+          path: /data
+          size: 10Gi
+          storageClass: ""
