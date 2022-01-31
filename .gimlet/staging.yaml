@@ -6,21 +6,6 @@ chart:
     name: onechart
     version: 0.32.0
 values:
-    containerPort: 8090
+    containerPort: 8080
     image:
         repository: myapp
-    probe:
-        enabled: true
-    replicas: 5
-    resources:
-        limits:
-            cpu: 500m
-            memory: 500Mi
-    vars:
-        newKey: New Value
-        newKey-1: New Value
-    volumes:
-        - name: data
-          path: /data
-          size: 10Gi
-          storageClass: ""
