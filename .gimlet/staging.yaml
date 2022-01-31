@@ -8,5 +8,6 @@ chart:
 values:
     containerPort: 9000
     image:
-        repository: myapp
+        repository: myappsi
+        tag: 0.1.0
     replicas: 3
