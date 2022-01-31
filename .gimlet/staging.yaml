@@ -11,7 +11,7 @@ values:
         tag: 0.1.0
     probe:
         enabled: true
-    replicas: 5
+    replicas: 10
     resources:
         limits:
             cpu: 500m
