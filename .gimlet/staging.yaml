@@ -6,7 +6,7 @@ chart:
     name: onechart
     version: 0.32.0
 values:
-    containerPort: 9000
+    containerPort: 8080
     image:
         repository: myappsi
         tag: 0.1.0
