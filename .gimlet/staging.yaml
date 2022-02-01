@@ -7,7 +7,7 @@ chart:
     version: 0.32.0
 values:
     image:
-        repository: myappsi
+        repository: myapp
     probe:
         enabled: true
     replicas: 4
