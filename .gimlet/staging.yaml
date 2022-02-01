@@ -6,7 +6,7 @@ chart:
     name: onechart
     version: 0.32.0
 values:
-    body: '{"image":{"repository":"myapp","tag":"0.1.0"},"probe":{"enabled":true},"resources":{"limits":{"cpu":"500m","memory":"500Mi"},"requests":{"cpu":"500m","memory":"500Mi"}},"vars":{"newKey":"New Value","newKey-1":"New Value"},"volumes":[{"name":"data","path":"/data","size":"10Gi","storageClass":""}]}'
+    body: '{"image":{"repository":"myappsi","tag":"0.1.0"},"probe":{"enabled":true},"resources":{"limits":{"cpu":"500m","memory":"500Mi"},"requests":{"cpu":"500m","memory":"500Mi"}},"vars":{"newKey":"New Value","newKey-1":"New Value"},"volumes":[{"name":"data","path":"/data","size":"10Gi","storageClass":""}]}'
     credentials: include
     headers:
         Accept: application/json
