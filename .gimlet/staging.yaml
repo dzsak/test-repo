@@ -8,4 +8,4 @@ chart:
 values:
     image:
         repository: myappsi
-    replicas: 2
+    replicas: 3
