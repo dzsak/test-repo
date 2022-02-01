@@ -7,12 +7,4 @@ chart:
     version: 0.32.0
 values:
     image:
-        repository: myapp
-    probe:
-        enabled: true
-    replicas: 4
-    volumes:
-        - name: data
-          path: /data
-          size: 10Gi
-          storageClass: ""
+        repository: myappd
