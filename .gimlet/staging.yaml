@@ -8,4 +8,11 @@ chart:
 values:
     image:
         repository: myappsi
+    probe:
+        enabled: true
     replicas: 4
+    volumes:
+        - name: data
+          path: /data
+          size: 10Gi
+          storageClass: ""
