@@ -8,3 +8,4 @@ chart:
 values:
     image:
         repository: myapp
+    replicas: 3
