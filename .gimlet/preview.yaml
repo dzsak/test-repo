@@ -1,8 +1,0 @@
-app: myapp-variation
-env: preview
-namespace: preview
-chart:
-  repository: https://chart.onechart.dev
-  name: onechart
-  version: 0.32.0
-values: {}
