@@ -6,6 +6,3 @@ chart:
   name: onechart
   version: 0.32.0
 values: {}
-strategicMergePatches: ""
-json6902Patches: []
-manifests: ""
